@@ -1,8 +1,8 @@
 ---
 theme: seriph
-background: https://cover.sli.dev
-title: My Presentation Template
-class: text-center
+background: title.png
+title: 人生迷走して瞑想
+class: /text-center
 drawings:
   persist: false
 transition: fade
@@ -11,9 +11,9 @@ hideInToc: true
 lineNumbers: true
 ---
 
-# My Presentation Template
+# 人生迷走して瞑想
 
-20yy/mm/dd presentation for XXXX
+2025/12/03 presentation for 忘年LT会 - フタコ.dev
 
 @kazu_kichi_67
 
@@ -29,30 +29,71 @@ lineNumbers: true
 </div>
 
 ---
+layout: center
+class: text-center
+hideInToc: true
+---
+
+## End
+
+ご清聴ありがとうございましたmm
+
+---
 src: ./pages/who-am-i.md
 hide: false
 ---
 
 ---
-hideInToc: true
+layout: section
 ---
 
-# Agenda
-
-***
-
-<br>
-<Toc maxDepth="2"/>
+# 瞑想したことある人ー（ﾊｰｲ🙋‍♂️
 
 ---
 layout: section
 ---
 
-# Section1
+# では、今からみんなで<br>5分瞑想をやってみましょう!
+
+---
+layout: section
+---
+
+# ・　・　・　
+
+---
+layout: center
+class: text-center
+hideInToc: true
+---
+
+## End
+
+ご清聴ありがとうございましたmm
 
 ---
 
-## List Sample
+## 出会いは書籍
+
+***
+
+<br>
+
+- 世界一流エンジニアの思考法 / 牛尾剛さん
+  - 第6章 仕事と人生の質を高める生活習慣術 - 「タイムボックス」制から身体づくりまで
+- 世界の一流は「休日」に何をしているのか / 越川慎司さん
+  - 第4章 「土曜」と「日曜」を戦略的に使い分ける
+  - 第5章 休日に「1日7分」の新習慣
+
+<style>
+  ul {
+    font-size: 18pt;
+  }
+</style>
+
+---
+
+## 世界の一流はみんなやっている
 
 ***
 
@@ -60,9 +101,10 @@ layout: section
 
 <v-clicks>
 
-- aaa
-- bbb
-- ccc
+- スティーブ・ジョブズ
+- ビル・ゲイツ
+- マーク・ザッカーバーグ
+- かずきち
 
 </v-clicks>
 
@@ -74,150 +116,152 @@ layout: section
 
 ---
 
-## Table Sample
+## なぜ世界の一流はみんな瞑想を実践するのか
 
 ***
 
-Table Sample.
+<br>
 
-|        |                              |
-| ------ | ---------------------------- |
-| AAAAAA | aaa                          |
-| BBB    | bbbbbbbb                     |
-| C      | <kbd>ccccccccccccccccc</kbd> |
-
----
-layout: section
----
-
-<div id="highlight-contents">
-highlight!!!
-</div>
+- スティーブ・ジョブズの例
+  - とらえにくいものの声が聞こえるようになり、<span v-mark.red>直感が花ひらく</span>
+- 脳のメンテナンス
+  - 情報過多の現代において、脳を意図的に「<span v-mark.circle.orange>オフ</span>」にする技術が必要である
 
 <style>
-  #highlight-contents {
-    font-size: 72pt;
+  ul {
+    font-size: 18pt;
   }
 </style>
 
 ---
-layout: section
----
 
-# Section2
-
----
-
-## Code Sample
+## どうやるのか？ 🧘
 
 ***
 
-code sample.
+<br>
 
-```java {*|3|2-4|1,5|*}
-class HelloWorld {
-	public static void main(String[] args) {
-		System.out.println("Hello, world.");
-	}
-}
-```
+引用元：世界の一流は「休日」に何をしているのか
+
+<br>
+
+<v-clicks>
+
+- 胡座か椅子に座った状態で背筋を伸ばす
+- 目を閉じて視覚情報を遮断する
+- 鼻から息を吸って、その倍の時間をかけて口から吐き出す
+- ゆっくりとした呼吸を何度も繰り返す
+
+</v-clicks>
 
 <style>
-pre.slidev-code {
-    background-color: #1f2020;
-}
+  ul {
+    font-size: 18pt;
+  }
 </style>
 
 ---
 
-## Diagrams Sample
+## 何も考えない が実はめちゃくちゃ難しい
 
 ***
 
-diagrams sample.
+<br>
 
-<div class="grid grid-cols-4 gap-5 pt-4 -mb-6">
+<div class="grid grid-cols-[60%_40%] gap-4">
 
-```mermaid {scale: 0.5, alt: 'A simple sequence diagram'}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
+<div>
+<v-clicks>
 
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
+- 終わらないタスクリストと通知の嵐
+- 常にマルチタスクで、深く集中できない
+- 情報過多で思考が飽和
+- あ、今日のお昼は何食べようかな〜
 
-```mermaid
-mindmap
-  root((mindmap))
-    Origins
-      Long history
-      ::icon(fa fa-book)
-      Popularisation
-        British popular psychology author Tony Buzan
-    Research
-      On effectiveness<br/>and features
-      On Automatic creation
-        Uses
-            Creative techniques
-            Strategic planning
-            Argument mapping
-    Tools
-      Pen and paper
-      Mermaid
-```
+</v-clicks>
+</div>
 
-```plantuml {scale: 0.7}
-@startuml
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
-
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
-
-@enduml
-```
+<div>
+ <img src="/IMG_8371.png" />
+</div>
 
 </div>
 
+<style>
+  ul {
+    font-size: 18pt;
+  }
+</style>
+
 ---
 
-## Tips
+## 「迷走」と「瞑想」
 
 ***
 
-The <span v-mark.red><code>code</code> directive</span>
-also allows you to add
-<span v-mark.circle.orange>inline marks</span>
-, powered by [Link](https://roughnotation.com/)
+<br>
 
-<logos-java class="text-7xl m-3 absolute right-20" />
+- 迷うことは、プロセスの一部と受け入れる
+- 思考があちこちに彷徨うっていることに気づくことが、マインドフルネスの第一歩
+- 「今、自分は瞑想に集中できていないな」と客観的に気づき、意識を呼吸に戻す
+- この繰り返しが瞑想の本質
+
+<style>
+  ul {
+    font-size: 18pt;
+  }
+</style>
+
+---
+
+## コツを整理
+
+***
+
+<br>
+
+<v-clicks>
+
+- 雑念に気づいたら、「呼吸」の感覚に意識を戻す
+- 雑念を否定したり、悲観的にならず、平常心を保つ
+- 短時間から始めてみる
+
+</v-clicks>
+
+<style>
+  ul {
+    font-size: 18pt;
+  }
+</style>
+
+---
+
+## 期待できる効果
+
+***
+
+<br>
+
+<v-clicks>
+
+- 集中力の向上
+  - 必要な時に一点に没入できる
+- 感情のコントロール
+  - 怒りや不安を客観視できる
+- 創造性の解放
+  - 脳のスペースが空き、新しいアイデアが湧く
+- ストレス軽減
+  - 意識的に呼吸を整えることで、自律神経が安定する
+- 状況に振り回されない強い心
+  - 人生の主導権を取り戻す!!
+
+</v-clicks>
+
+<style>
+  ul {
+    font-size: 18pt;
+  }
+</style>
 
 ---
 layout: center
@@ -225,6 +269,6 @@ class: text-center
 hideInToc: true
 ---
 
-# End
+## End
 
-<PoweredBySlidev mt-10 />
+まずは明日の朝、5分から始めてみませんか。

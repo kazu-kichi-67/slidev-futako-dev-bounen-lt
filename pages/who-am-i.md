@@ -2,24 +2,27 @@
 hideInToc: true
 ---
 
-# Who am i?
+## Who am i?
 
 ***
 
 <div class="grid grid-cols-[30%_70%] gap-4">
 
 <div>
-<img src="/camp.png" />
+ <img src="/camp.png" />
 </div>
 
 <div>
 <br>
 
 - <mdi-account-circle /> **Name** - kazu_kichi_67
-- <carbon-book /> **Language** - Java (, Kotlin, Swift, PHP, C++)
-- <carbon-bookmark /> **Skill** - Registered Scrum Master
-- <carbon-bar /> **Hobby** - フットサル, スノボ, 爬虫類, キャンプ, サウナ, ウイスキー, クラフトビール
-- <carbon-activity /> **Interest** - Agile, DDD, Architecture, etc..
+- <carbon-bar /> **Hobby** - キャンプ（アドベントカレンダー開催中なのでぜひ）
+- <carbon-activity /> **Interest** - 瞑想, ヨガ, マインドフルネス etc..
+- <carbon-book /> **Language** - Duolingoで英語学習者の上位0.1%(2025年実績)
 
 </div>
+</div>
+
+<div  class="scale-[0.2] origin-top" >
+ <img src="/duolingo.jpeg"/>
 </div>
