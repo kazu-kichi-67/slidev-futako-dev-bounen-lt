@@ -69,6 +69,8 @@ hideInToc: true
 
 ## End
 
+(5分経過のドラ)
+
 ご清聴ありがとうございましたmm
 
 ---
@@ -79,9 +81,9 @@ hideInToc: true
 
 <br>
 
-- 世界一流エンジニアの思考法 / 牛尾剛さん
+- <span v-mark.red>世界一流エンジニアの思考法 / 牛尾剛さん</span>
   - 第6章 仕事と人生の質を高める生活習慣術 - 「タイムボックス」制から身体づくりまで
-- 世界の一流は「休日」に何をしているのか / 越川慎司さん
+- <span v-mark.red>世界の一流は「休日」に何をしているのか / 越川慎司さん</span>
   - 第4章 「土曜」と「日曜」を戦略的に使い分ける
   - 第5章 休日に「1日7分」の新習慣
 
@@ -99,6 +101,9 @@ hideInToc: true
 
 <br>
 
+<div class="grid grid-cols-[50%_50%] gap-4">
+
+<div>
 <v-clicks>
 
 - スティーブ・ジョブズ
@@ -107,6 +112,17 @@ hideInToc: true
 - かずきち
 
 </v-clicks>
+</div>
+
+<div>
+<v-click>
+<div class="scale-[0.8] origin-top">
+<Tweet id="1833614125618106391"/>
+</div>
+</v-click>
+</div>
+
+</div>
 
 <style>
   ul {
@@ -201,10 +217,10 @@ hideInToc: true
 
 <br>
 
-- 迷うことは、プロセスの一部と受け入れる
-- 思考があちこちに彷徨うっていることに気づくことが、マインドフルネスの第一歩
-- 「今、自分は瞑想に集中できていないな」と客観的に気づき、意識を呼吸に戻す
-- この繰り返しが瞑想の本質
+- 迷うことは、<span v-mark.red>プロセスの一部</span>と受け入れる
+- 思考があちこちに彷徨っていると気づくことが、<span v-mark.red>マインドフルネスの第一歩</span>
+- 「今、自分は瞑想に集中できていないな」と<span v-mark.red>客観的に気づき</span>、意識を呼吸に戻す
+- <span v-mark.red>この繰り返しが瞑想の本質</span>
 
 <style>
   ul {
@@ -220,6 +236,9 @@ hideInToc: true
 
 <br>
 
+<div class="grid grid-cols-[60%_40%] gap-4">
+
+<div>
 <v-clicks>
 
 - 雑念に気づいたら、「呼吸」の感覚に意識を戻す
@@ -227,6 +246,15 @@ hideInToc: true
 - 短時間から始めてみる
 
 </v-clicks>
+</div>
+
+<div>
+<div>
+ <img src="/meisou.png" />
+</div>
+</div>
+
+</div>
 
 <style>
   ul {

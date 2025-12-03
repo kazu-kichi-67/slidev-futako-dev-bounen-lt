@@ -18,7 +18,7 @@ hideInToc: true
 - <mdi-account-circle /> **Name** - kazu_kichi_67
 - <carbon-bar /> **Hobby** - キャンプ（アドベントカレンダー開催中なのでぜひ）
 - <carbon-activity /> **Interest** - 瞑想, ヨガ, マインドフルネス etc..
-- <carbon-book /> **Language** - Duolingoで英語学習者の上位0.1%(2025年実績)
+- <carbon-book /> **Language** - Duolingoで英語学習者の上位<span v-mark.circle.orange>0.1%</span>(2025年実績)
 
 </div>
 </div>
